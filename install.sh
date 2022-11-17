@@ -19,6 +19,7 @@ sudo apt install xscreensaver
 sudo cp ./config.txt /boot/config.txt
 
 # wifi
+sudo cp /etc/wpa_
 sudo apt install wpa_gui
 
 # splash
