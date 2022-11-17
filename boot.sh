@@ -7,8 +7,6 @@ xset s noblank
 matchbox-window-manager -use_titlebar no &
 unclutter &    # hide X mouse cursor unless mouse activated
 
-./home/pi/pi-kiosk-install/screensaver.sh &
-
 # Remove exit errors from the config files that could trigger a warning
 
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Local State'
