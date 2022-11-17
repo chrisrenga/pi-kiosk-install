@@ -24,7 +24,7 @@ sudo cp /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplica
 sudo apt-get install wpa_gui -y
 
 # splash
-sudo echo "logo.nologo" >> /boot/cmdline.txt
+# sudo echo "logo.nologo" >> /boot/cmdline.txt
 sudo cp ./splash.png /usr/share/plymouth/themes/pix/splash.png
 
 #fix permissions
