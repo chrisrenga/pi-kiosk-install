@@ -25,7 +25,7 @@ sudo cp ./config.txt /boot/config.txt
 
 # wifi
 sudo cp /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf_on
-sudo apt-get install wpa_gui -y
+sudo apt-get install wpagui -y
 
 # splash
 # sudo echo "logo.nologo" >> /boot/cmdline.txt
@@ -36,3 +36,6 @@ sudo chmod +x ./boot.sh
 sudo chmod +x ./screensaver.sh
 sudo chmod +x ./screensaver.mp4
 sudo chmod +x ./screensaver.desktop
+
+# touch display
+sudo apt install matchbox-keyboard
