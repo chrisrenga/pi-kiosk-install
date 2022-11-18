@@ -38,4 +38,4 @@ sudo chmod +x ./screensaver.mp4
 sudo chmod +x ./screensaver.desktop
 
 # touch display
-sudo apt install matchbox-keyboard
+sudo apt install matchbox-keyboard -y
